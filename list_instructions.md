@@ -503,6 +503,4 @@ Advanced List Techniques: Comprehensions and Built-in Functions
 When working with large lists, consider using list comprehensions instead of loops for better performance. Python's list comprehensions are optimized and often faster than equivalent for-loop implementations.
 ```
 
----
-
 *Keep practicing! The best way to master list manipulation is to write code and experiment with different operations.*

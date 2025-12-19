@@ -187,6 +187,4 @@ Before starting, you should have:
 - [Python Tutorial - W3Schools](https://www.w3schools.com/python/python_lists.asp)
 - [Real Python - Lists and Tuples](https://realpython.com/python-lists-tuples/)
 
----
-
 *Happy Coding! May your lists always be well-structured and your indices always in bounds!*
