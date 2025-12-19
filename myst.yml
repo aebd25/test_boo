@@ -1,24 +1,86 @@
+# # See docs at: https://mystmd.org/guide/frontmatter
+# version: 1
+# project:
+#   # title:
+#   # description:
+#   # keywords: []
+#   # authors: []
+#   # github:
+#   authors:
+#     - The Jupyter Book Team
+#   toc:
+#     - file: intro.md
+#   exports:
+#     - format: pdf
+#       template: lapreprint-typst
+#       articles: intro.md
+#                 intro2.md
+#   references:
+#     guide: https://mystmd.org/guide
+
+# site:
+#   template: book-theme
+#   # options:
+#   #   favicon: favicon.ico
+#   #   logo: site_logo.png
+
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  # title:
-  # description:
-  # keywords: []
-  # authors: []
-  # github:
+  title: Python Programming Guide
+  description: A comprehensive guide to Python programming focusing on lists and data structures
+  keywords: [python, programming, lists, data structures, tutorial]
   authors:
-    - The Jupyter Book Team
+    - name: Python Developer
+      email: developer@example.com
+    - name: The Jupyter Book Team
+  github: https://github.com/aebd25/python-lists-guide
   toc:
-    - file: intro.md
+    - file: python_lists_main.md
+      title: Python Lists
+      sections:
+        - file: introduction_to_lists.md
+          title: Introduction to Lists
+        - file: working_with_lists.md
+          title: Working with Lists
+          sections:
+            - file: working_with_lists.md#adding-and-removing-elements
+              title: Adding and Removing Elements
+            - file: working_with_lists.md#accessing-and-modifying-elements
+              title: Accessing and Modifying Elements
+        - file: list_instructions.md
+          title: Advanced List Techniques
+          sections:
+            - file: list_instructions.md#list-comprehensions
+              title: List Comprehensions
+            - file: list_instructions.md#built-in-functions-for-lists
+              title: Built-in Functions
   exports:
     - format: pdf
       template: lapreprint-typst
-      articles: intro.md
+      articles:
+        - python_lists_main.md
+        - introduction_to_lists.md
+        - working_with_lists.md
+        - list_instructions.md
   references:
     guide: https://mystmd.org/guide
 
 site:
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  options:
+    favicon: favicon.ico
+    logo: python_logo.png
+    title: Python Lists Guide
+    repo_url: https://github.com/yourusername/python-lists-guide
+    repo_icon: github
+    navbar:
+      - title: Home
+        url: /index.html
+      - title: Python Lists
+        url: /python_lists_main.html
+      - title: GitHub
+        url: https://github.com/yourusername/python-lists-guide
+    footer:
+      left: "© 2024 Python Programming Guide"
+      right: "Built with MyST"
