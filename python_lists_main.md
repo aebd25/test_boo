@@ -129,7 +129,6 @@ print(type(my_list))
 Now try accessing different elements and see what happens!
 ```
 
----
 
 ## Next Steps
 
@@ -166,7 +165,6 @@ Advanced Topics →
 :::
 :::
 
----
 
 ## About This Guide
 
