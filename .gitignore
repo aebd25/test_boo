@@ -1,0 +1,9 @@
+### Jupyter & Jupyter Book ###
+# Jupyter Notebook auto-save and checkpoint files[citation:1]
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.ipynb_checkpoints/
+
+# Jupyter Book build outputs
+auto_commit/
+auto_commit/*
